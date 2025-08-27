@@ -7,6 +7,15 @@
 <body>
   <h2>My Simple Button Program</h2>
   <button onclick="alert('Hello Shruti!')">For Shruti</button>
-  <button onclick="alert('Hello Divya!')">For Divya</button>
+  <button onclick="changeBackground()">For Divya</button>
+
+  <script>
+    function changeBackground() {
+      // Pehle alert show hoga
+      alert('Hello Divya!');
+      // Background color change hoga
+      document.body.style.backgroundColor = "lightblue";
+    }
+  </script>
 </body>
 </html>
